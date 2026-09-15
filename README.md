@@ -2,7 +2,7 @@
 
 Senior Full-Stack Engineer building real-time, fintech, and Web3 systems.
 
-`Go` · `TypeScript` · `React` · `Node.js` · `PostgreSQL` · `AWS`
+`Go` · `TypeScript` · `React` · `Vue` · `Node.js` · `PostgreSQL` · `AWS`
 
 I design and build production-oriented systems involving real-time market data, asset accounting, distributed workflows, and blockchain infrastructure. Focused on backend correctness, deterministic execution, and clean, responsive interfaces.
 
@@ -58,7 +58,7 @@ Personal engineering portfolio and systems case study index.
 
 ### [SUSE Harvester / Rancher UI](https://github.com/harvester/harvester-ui-extension)
 
-Contributing upstream bug fixes to the Harvester UI Extension (open-source hyperconverged infrastructure management based on Kubernetes, KubeVirt, and Longhorn):
+Contributing upstream bug fixes to the Harvester UI Extension (Vue-based dashboard extension for open-source hyperconverged infrastructure on Kubernetes, KubeVirt, and Longhorn):
 
 * [PR #1146](https://github.com/harvester/harvester-ui-extension/pull/1146) — `fix: bind bulk VM disk deletion checkbox to checkAll` *(Open / Under review)*
   Resolved an issue where bulk VM deletion incorrectly inherited global deletion flags, ensuring disk retention preferences are preserved across batch operations.
@@ -73,6 +73,7 @@ Contributing upstream bug fixes to the Harvester UI Extension (open-source hyper
 * **Fintech & Asset Accounting:** Fixed-point integer money, balance ledgers with available/locked accounting, per-fill price-improvement refunds, and trade journals.
 * **Backend Architecture & APIs:** High-throughput REST and WebSocket services in Go and Node.js/TypeScript, PostgreSQL schema design, and Docker containerization.
 * **Web3 & Blockchain Infrastructure:** On-chain Proof of Reserves (Merkle sum trees), reorg-safe transaction scanning, nonce-managed hot wallets, and atomic DvP smart contracts.
+* **Full-Stack & UI Engineering:** Responsive, data-dense interfaces with React, Next.js, and Vue; real-time order books, tape streams, and audited operational control panels.
 
 ---
 
