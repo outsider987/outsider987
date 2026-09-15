@@ -10,6 +10,21 @@ I design and build production-oriented systems involving real-time market data, 
 
 ## Featured Projects
 
+### [HoldBook — Hedera RWA Secondary Market](https://github.com/outsider987/hedera-rwa-secondary-market)
+
+ATS-first secondary market prototype for tokenized equity on Hedera Testnet.
+
+`TypeScript` · `React` · `Go` · `PostgreSQL` · `Solidity` · `Hedera SDK`
+
+* **Signed Order Matching:** Off-chain Go matching engine with EIP-712 signature verification, price-time priority book, and durable PostgreSQL state recovery.
+* **Atomic Settlement (DvP):** Custom Solidity escrow contract executing ATS Holds and HBAR payment atomically in a single transaction (Delivery vs. Payment).
+* **Verifiable Compliance Lifecycle:** Verifiable Credential verification, on-chain KYC gating, and guarded hold execution/release.
+* **Audit & Evidence:** Prototype on Hedera Testnet with verifiable on-chain settlement receipts, structured architecture documentation, and recorded execution evidence.
+
+[Live Demo →](https://outsider987.github.io/hedera-rwa-secondary-market/) · [View Repository →](https://github.com/outsider987/hedera-rwa-secondary-market)
+
+---
+
 ### [Matchbook](https://github.com/outsider987/matchbook)
 
 Cryptocurrency exchange infrastructure built from scratch.
@@ -23,21 +38,6 @@ Cryptocurrency exchange infrastructure built from scratch.
 * **Trading Terminal & Market Maker:** Full React 19 trading interface with real-time candles, cumulative depth ladders, tape, and a bot mirroring live Binance price feeds and taker flow.
 
 [View Repository →](https://github.com/outsider987/matchbook)
-
----
-
-### [HoldBook — Hedera RWA Secondary Market](https://github.com/outsider987/hedera-rwa-secondary-market)
-
-ATS-first secondary market prototype for tokenized equity on Hedera Testnet.
-
-`TypeScript` · `React` · `Go` · `PostgreSQL` · `Solidity` · `Hedera SDK`
-
-* **Signed Order Matching:** Off-chain Go matching engine with EIP-712 signature verification, price-time priority book, and durable PostgreSQL state recovery.
-* **Atomic Settlement (DvP):** Custom Solidity escrow contract executing ATS Holds and HBAR payment atomically in a single transaction (Delivery vs. Payment).
-* **Verifiable Compliance Lifecycle:** Verifiable Credential verification, on-chain KYC gating, and guarded hold execution/release.
-* **Audit & Evidence:** Prototype on Hedera Testnet with verifiable on-chain settlement receipts, structured architecture documentation, and recorded execution evidence.
-
-[Live Demo →](https://outsider987.github.io/hedera-rwa-secondary-market/) · [View Repository →](https://github.com/outsider987/hedera-rwa-secondary-market)
 
 ---
 
